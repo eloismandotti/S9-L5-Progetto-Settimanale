@@ -1,6 +1,6 @@
 window.onload = function() {
     
-    let utente1 = new Smartphone(0.21,0,0,50);
+    let utente1 = new Smartphone(0.21,0,0,0);
     let utente2 = new Smartphone(0.50,0,0,0);
     let utente3 = new Smartphone(0.19,0,0,0);
     console.log("Credito iniziale: ", utente1.remainingCredit())
